@@ -1,37 +1,3 @@
-# APP放行
-
-# 阿里巴巴
-USER-AGENT,%e9%98%bf%e9%87%8c%e5%b7%b4%e5%b7%b4*,DIRECT
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Alibaba/Alibaba.list,DIRECT
-DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Alibaba/Alibaba_Domain.list,DIRECT
-# 优酷
-USER-AGENT,%e4%bc%98%e9%85%b7*,DIRECT
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Youku/Youku.list,DIRECT
-# 高德地图
-USER-AGENT,%e9%ab%98%e5%be%b7%e5%9c%b0%e5%9b%be*,DIRECT
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/GaoDe/GaoDe.list,DIRECT
-# 支付宝
-USER-AGENT,Alipay*,DIRECT
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/shadowrocket/alipay/alipay.list,DIRECT
-# 饿了么
-USER-AGENT,emele*,DIRECT
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Eleme/Eleme.list,DIRECT
-# 闲鱼
-USER-AGENT,%e9%97%b2%e9%b1%bc*,DIRECT
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/XianYu/XianYu.list,DIRECT
-# 菜鸟
-USER-AGENT,%e8%8f%9c%e9%b8%9f*,DIRECT
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/CaiNiao/CaiNiao.list,DIRECT
-# 钉钉
-USER-AGENT,%e9%92%89%e9%92%89*,DIRECT
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/DingTalk/DingTalk.list,DIRECT
-# 飞猪
-USER-AGENT,%e9%a3%9e%e7%8c%aa*,DIRECT
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/FeiZhu/FeiZhu.list,DIRECT
-# 优酷和土豆
-USER-AGENT,%e5%9c%9f%e8%b1%86*,DIRECT
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Youku&Tudou/Youku&Tudou.list,DIRECT
-
 # IP段
 IP-CIDR,140.205.0.0/16,NO-RESOLE
 IP-CIDR,59.82.0.0/16,NO-RESOLE
