@@ -1,1 +1,65 @@
-/
+[
+  {
+    "sni": "phk1.spacebooster.co",
+    "type": "trojan",
+    "password": "ff2d6e85-503d-a9b0-983b-667366824296",
+    "server": "cmsswfw.yushen.buzz",
+    "port": 39646,
+    "name": "HK 01",
+    "tls": true,
+    "subName": "20500101"
+  },
+  {
+    "name": "HK 10 4",
+    "type": "vmess",
+    "server": "183.240.179.195",
+    "port": 15610,
+    "cipher": "zero",
+    "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad",
+    "alterId": 0,
+    "tls": false,
+    "subName": "20500101"
+  },
+  {
+    "sni": "polo.jp1.spacebooster.co",
+    "type": "trojan",
+    "password": "4b2b7b1d-2713-7231-2126-12d9e2aa8c5f",
+    "server": "tjlt.yushen.buzz",
+    "port": 26068,
+    "name": "JP 01",
+    "tls": true,
+    "subName": "20500101"
+  },
+  {
+    "sni": "polo.sg2.spacebooster.co",
+    "type": "trojan",
+    "password": "b2ed99f0-a721-212c-ba7a-3edb7691c889",
+    "server": "tjlt.yushen.buzz",
+    "port": 23556,
+    "name": "SG 01",
+    "tls": true,
+    "subName": "20500101"
+  },
+  {
+    "name": "KR 01 直连",
+    "type": "vmess",
+    "server": "125.129.194.28",
+    "port": 48215,
+    "cipher": "auto",
+    "uuid": "06d29f39-ff61-4592-8800-1e243045a123",
+    "alterId": 0,
+    "tls": false,
+    "subName": "20500101"
+  },
+  {
+    "name": "KR 02 直连",
+    "type": "vmess",
+    "server": "59.6.237.245",
+    "port": 48215,
+    "cipher": "auto",
+    "uuid": "06d29f39-ff61-4592-8800-1e243045a123",
+    "alterId": 0,
+    "tls": false,
+    "subName": "20500101"
+  }
+]
