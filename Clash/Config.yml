@@ -115,11 +115,6 @@ proxy-groups:
       - SG 01
       - KR 01 直连
       - KR 02 直连
-  - name: 去广告
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
   - name: Google
     type: select
     proxies:
