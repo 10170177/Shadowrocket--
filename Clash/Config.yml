@@ -1,8 +1,8 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-04-24 16:33:30
-# 使用模版：Clash
+# 创建时间：2024-05-06 10:22:19
+# 使用模版：CF
 # 节点数量：6
 # 节点类型：trojan, vmess
 ####################################
@@ -86,10 +86,10 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"HK 01","type":"trojan","server":"cmsswfw.yushen.buzz","port":29640,"udp":true,"password":"93eb6f33-6aaf-b9ac-db29-724e75e2e448","sni":"phk16.spacebooster.co","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"HK 01","type":"trojan","server":"cmcccc01ss238.yushen.buzz","port":29954,"udp":true,"password":"a7cbb17e-f37b-d900-7e49-e02e2428354f","sni":"phk1.spacebooster.co","skip-cert-verify":true,"network":"tcp"}
   - {"name":"HK 02","type":"vmess","server":"183.240.179.195","port":15600,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JP 01","type":"trojan","server":"tjlt.yushen.buzz","port":10450,"udp":true,"password":"1be9d575-058d-d73d-b5ef-28280638ddd6","sni":"polo.jp2.spacebooster.co","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"SG 01","type":"trojan","server":"tjlt.yushen.buzz","port":23556,"udp":true,"password":"b2ed99f0-a721-212c-ba7a-3edb7691c889","sni":"polo.sg2.spacebooster.co","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"JP 01","type":"trojan","server":"cmcccc01ss238.yushen.buzz","port":33533,"udp":true,"password":"4b2b7b1d-2713-7231-2126-12d9e2aa8c5f","sni":"polo.jp1.spacebooster.co","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"SG 01","type":"trojan","server":"cmcccc01ss238.yushen.buzz","port":23109,"udp":true,"password":"0908de3b-0ee7-6935-7e63-de5b298116ff","sni":"polo.sg1.spacebooster.co","skip-cert-verify":true,"network":"tcp"}
   - {"name":"KR 01 直连","type":"vmess","server":"125.129.194.28","port":48215,"cipher":"auto","uuid":"06d29f39-ff61-4592-8800-1e243045a123","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
   - {"name":"KR 02 直连","type":"vmess","server":"59.6.237.245","port":48215,"cipher":"auto","uuid":"06d29f39-ff61-4592-8800-1e243045a123","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
 proxy-groups:
@@ -115,6 +115,11 @@ proxy-groups:
       - SG 01
       - KR 01 直连
       - KR 02 直连
+  - name: 去广告
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
   - name: Google
     type: select
     proxies:
