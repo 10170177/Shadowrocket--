@@ -123,20 +123,13 @@ proxy-groups:
   - name: Google
     type: select
     proxies:
-      - HK 01
       - HK 02
-      - JP 01
-      - SG 01
-      - KR 01 直连
-      - KR 02 直连
   - name: OpenAI
     type: url-test
     url: https://chat.openai.com
     interval: 60
     tolerance: 0
     proxies:
-      - HK 01
-      - HK 02
       - JP 01
       - SG 01
       - KR 01 直连
