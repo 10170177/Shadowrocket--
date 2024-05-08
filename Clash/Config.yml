@@ -128,7 +128,6 @@ proxy-groups:
     interval: 60
     tolerance: 0
     proxies:
-      - JP 01
       - SG 01
       - KR 01 直连
       - KR 02 直连
@@ -141,7 +140,6 @@ proxy-groups:
       - HK 01
       - HK 01
       - SG 01
-
   - name: 直连
     type: select
     proxies:
