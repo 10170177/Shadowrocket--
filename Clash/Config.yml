@@ -131,9 +131,9 @@ proxy-groups:
       - SG 01
       - KR 01 直连
       - KR 02 直连
-- name: NA
+  - name: NA
     type: url-test
-    url: https://missav.com/
+    url: https://missav.com
     interval: 60
     tolerance: 0
     proxies:
