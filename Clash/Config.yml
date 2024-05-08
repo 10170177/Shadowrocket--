@@ -86,12 +86,12 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"HK 01","type":"trojan","server":"cmcccc01ss238.yushen.buzz","port":29954,"udp":true,"password":"a7cbb17e-f37b-d900-7e49-e02e2428354f","sni":"phk1.spacebooster.co","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"HK 02","type":"vmess","server":"183.240.179.195","port":15600,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"JP 01","type":"trojan","server":"cmcccc01ss238.yushen.buzz","port":33533,"udp":true,"password":"4b2b7b1d-2713-7231-2126-12d9e2aa8c5f","sni":"polo.jp1.spacebooster.co","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"SG 01","type":"trojan","server":"cmcccc01ss238.yushen.buzz","port":23109,"udp":true,"password":"0908de3b-0ee7-6935-7e63-de5b298116ff","sni":"polo.sg1.spacebooster.co","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"KR 01 直连","type":"vmess","server":"125.129.194.28","port":48215,"cipher":"auto","uuid":"06d29f39-ff61-4592-8800-1e243045a123","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"KR 02 直连","type":"vmess","server":"59.6.237.245","port":48215,"cipher":"auto","uuid":"06d29f39-ff61-4592-8800-1e243045a123","alterId":0,"tls":false,"skip-cert-verify":true,"network":""}
+  - {"sni":"phk1.spacebooster.co","type":"trojan","password":"a7cbb17e-f37b-d900-7e49-e02e2428354f","server":"cmcccc01ss238.yushen.buzz","port":29954,"name":"HK 01","udp":true}
+  - {"name":"HK 02","type":"vmess","server":"183.240.179.195","port":15600,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad","alterId":0,"tls":false,"udp":true}
+  - {"sni":"polo.sg1.spacebooster.co","type":"trojan","password":"0908de3b-0ee7-6935-7e63-de5b298116ff","server":"cmcccc01ss238.yushen.buzz","port":23109,"name":"SG 01","udp":true}
+  - {"name":"KR 01 直连","type":"vmess","server":"125.129.194.28","port":48215,"cipher":"auto","uuid":"06d29f39-ff61-4592-8800-1e243045a123","alterId":0,"tls":false,"udp":true}
+  - {"name":"KR 02 直连","type":"vmess","server":"59.6.237.245","port":48215,"cipher":"auto","uuid":"06d29f39-ff61-4592-8800-1e243045a123","alterId":0,"tls":false,"udp":true}
+
 proxy-groups:
   - name: 节点选择
     type: select
@@ -99,7 +99,6 @@ proxy-groups:
       - 自动选择
       - HK 01
       - HK 02
-      - JP 01
       - SG 01
       - KR 01 直连
       - KR 02 直连
@@ -111,7 +110,6 @@ proxy-groups:
     proxies:
       - HK 01
       - HK 02
-      - JP 01
       - SG 01
       - KR 01 直连
       - KR 02 直连
