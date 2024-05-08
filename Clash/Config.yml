@@ -132,6 +132,16 @@ proxy-groups:
       - SG 01
       - KR 01 直连
       - KR 02 直连
+- name: NA
+    type: url-test
+    url: https://missav.com/
+    interval: 60
+    tolerance: 0
+    proxies:
+      - HK 01
+      - HK 01
+      - SG 01
+
   - name: 直连
     type: select
     proxies:
@@ -1110,6 +1120,8 @@ rules:
   - IP-CIDR6,ff00::/8,直连,no-resolve
   - GEOIP,LAN,直连
   - GEOIP,CN,直连
+ - DOMAIN-SUFFIX,missav,NA
+ - DOMAIN-SUFFIX,91porn,NA
 # 长风网站，自动注入
   - DOMAIN-SUFFIX,v2rayse.com,节点选择
   - DOMAIN-SUFFIX,cff.pw,节点选择
