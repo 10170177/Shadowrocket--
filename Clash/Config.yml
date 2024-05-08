@@ -138,7 +138,7 @@ proxy-groups:
     tolerance: 0
     proxies:
       - HK 01
-      - HK 01
+      - HK 02
       - SG 01
   - name: 直连
     type: select
