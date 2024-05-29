@@ -1,1 +1,1 @@
-vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJDTiBHWiIsCiAgImFkZCI6ICIxMTkuOTEuMjMzLjE3MiIsCiAgInBvcnQiOiA3Nzc3LAogICJpZCI6ICIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAiLAogICJhaWQiOiAwLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogIiIsCiAgInBhdGgiOiAiLyIsCiAgInRscyI6ICJub25lIgp9
+CN GZ = vmess,119.91.233.172,7777,auto,"00000000-0000-0000-0000-000000000000",transport=ws,alterId=0,path=/,host=pgdt.gtimg.cn,udp=true,over-tls=false
