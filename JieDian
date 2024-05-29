@@ -1,1 +1,1 @@
-CN GZ = vmess,119.91.233.172,66,auto,"00000000-0000-0000-0000-000000000000",transport=ws,alterId=0,path=/,host=pgdt.gtimg.cn,udp=true,over-tls=false
+CN GZ = vmess,119.91.233.172,7777,auto,"00000000-0000-0000-0000-000000000000",transport=ws,alterId=0,path=/,host=pgdt.gtimg.cn,udp=true,over-tls=false
