@@ -1,6 +1,4 @@
 GEOIP, CN, DIRECT
-
-
 IP-CIDR, 28.0.0.1/8 //Clash.meta's Fake IP
 IP-CIDR, 198.18.0.1/16 //Clash.meta's Fake IP
 IP-CIDR, 198.18.0.0/15 //sing-box's Fake IP
@@ -14,5 +12,3 @@ IP-CIDR, 198.18.0.0/15, no-resolve
 IP-CIDR6, ::1/128, no-resolve
 IP-CIDR6, fc00::/7, no-resolve
 IP-CIDR6, fe80::/10, no-resolve
-[Remote Rule]
-https://raw.githubusercontent.com/GITHUB-1220/VPN-Config/main/DIRECT.list
