@@ -1,4 +1,4 @@
-GEOIP, CN, DIRECT
+GEOIP, cn, DIRECT
 IP-CIDR, 28.0.0.1/8 //Clash.meta's Fake IP
 IP-CIDR, 198.18.0.1/16 //Clash.meta's Fake IP
 IP-CIDR, 198.18.0.0/15 //sing-box's Fake IP
